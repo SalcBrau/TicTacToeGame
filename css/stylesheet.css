@@ -1,0 +1,297 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Calibri;
+  text-align: center;
+}
+
+h1 {
+  font-size: 95px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#one:hover {
+  font-size: 25px;
+  color: #350b63;
+}
+
+#two:hover {
+  font-size: 25px;
+  color: #350b63;
+}
+
+#one:active {
+  font-size: 25px;
+  color: #350b63;
+}
+
+#one,
+#two,
+#zero,
+#x {
+  font-size: 20px;
+  color: #545251;
+  cursor: pointer;
+}
+
+#one,
+#two {
+  margin-top: 15px;
+}
+
+#x:hover,
+#zero:hover {
+  font-size: 65px;
+  color: #350b63;
+  -webkit-transform: translate(-4px, -10px);
+  -moz-transform: translate(-4px, -10px);
+  -o-transform: translate(-4px, -10px);
+  -ms-transform: translate(-4px, -10px);
+  transform: translate(-4px, -10px);
+}
+
+#zero,
+#x {
+  font-size: 50px;
+  display: inline-block;
+  margin-top: 15px;
+  position: absolute;
+}
+
+#back {
+  display: block;
+  color: #350b63;
+  width: 75px;
+  border-radius: 15%;
+  font-size: 25px;
+  border: solid #350b63 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+#back:active,
+#reset:active {
+  -webkit-transform: translateX(3px);
+  -moz-transform: translateX(3px);
+  -o-transform: translateX(3px);
+  -ms-transform: translateX(3px);
+  transform: translateX(3px);
+}
+
+#zero {
+  left: 95px;
+}
+
+#x {
+  left: 175px;
+}
+
+#one {
+  margin-top: -25px;
+}
+
+#board {
+  display: block;
+  margin: auto;
+  background-color: #350b63;
+  width: 400px;
+  height: 400px;
+  border-radius: 5%;
+  margin-bottom: 25px;
+}
+
+#selection {
+  opacity: 0;
+  visibility: hidden;
+  color: black;
+  max-width: 250px;
+  display: block;
+  margin: auto;
+  margin-top: -195px;
+}
+
+#message {
+  font-size: 30px;
+  margin-top: -50px;
+}
+
+#game {
+  width: 300px;
+  height: 225px;
+  background-color: #cec8d4;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+  position: relative;
+  top: 40px;
+}
+
+canvas {
+  background-color: #cec8d4;
+  width: 97px;
+  height: 105px;
+  color: #632da1;
+}
+
+#playarea {
+  margin-top: -305px;
+  visibility: hidden;
+}
+
+#welcome {
+  color: black;
+  font-size: 65px;
+  margin-top: -50px;
+}
+
+span {
+  font-size: 30px;
+  position: relative;
+  bottom: 35px;
+}
+
+.purple {
+  color: #350b63;
+  font-size: 25px;
+}
+
+footer {
+  color: #ffffff;
+  position: relative;
+  bottom: 56px;
+  font-size: 20px;
+}
+
+#p1,
+.p1-sc,
+#p2,
+.p2-sc {
+  display: inline-block;
+  font-weight: bold;
+}
+
+#p1 {
+  position: relative;
+  right: 26px;
+  color: #b473ff;
+}
+
+#p2 {
+  margin-right: 75px;
+  color: #644d7d;
+}
+
+#score {
+  height: 0px;
+  position: relative;
+  top: 10px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#reset:hover {
+  font-size: 30px;
+  -webkit-transform: translate(-4px, -3px);
+  -moz-transform: translate(-4px, -3px);
+  -o-transform: translate(-4px, -3px);
+  -ms-transform: translate(-4px, -3px);
+  transform: translate(-4px, -3px);
+}
+
+#reset {
+  display: inline-block;
+  position: absolute;
+  left: 272px;
+  top: -9px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#top {
+  margin-top: 30px;
+}
+
+.jconfirm.jconfirm-my-theme .jconfirm-bg {
+  background-color: rgba(71, 37, 99, 0.95);
+}
+
+.jconfirm.jconfirm-my-theme .jconfirm-box {
+  background-color: transparent;
+}
+
+.jconfirm.jconfirm-my-theme .jconfirm-box.jconfirm-type-blue {
+  border: none;
+}
+
+.jconfirm.jconfirm-my-theme .jconfirm-box.jconfirm-type-green {
+  border: none;
+}
+
+.jconfirm.jconfirm-my-theme .jconfirm-box.jconfirm-type-red {
+  border: none;
+}
+
+.jconfirm.jconfirm-my-theme .jconfirm-box.jconfirm-type-orange {
+  border: none;
+}
+
+.jconfirm.jconfirm-my-theme .jconfirm-box.jconfirm-type-purple {
+  border: none;
+}
+
+.jconfirm.jconfirm-my-theme .jconfirm-box.jconfirm-type-dark {
+  border: none;
+}
+
+.jconfirm.jconfirm-my-theme .jconfirm-box div.jconfirm-closeIcon {
+  color: white;
+}
+
+.jconfirm.jconfirm-my-theme .jconfirm-box div.jconfirm-title-c {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.jconfirm.jconfirm-my-theme .jconfirm-box div.jconfirm-title-c > * {
+  margin-top: 50px;
+  padding-bottom: 0px;
+}
+
+.jconfirm.jconfirm-my-theme .jconfirm-box div.jconfirm-title-c .jconfirm-icon-c {
+  margin-right: 8px;
+  margin-left: 0px;
+}
+
+.jconfirm.jconfirm-my-theme .jconfirm-box div.jconfirm-content-pane {
+  margin-bottom: 25px;
+}
+
+.jconfirm.jconfirm-my-theme .jconfirm-box div.jconfirm-content {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.jconfirm.jconfirm-my-theme .jconfirm-box .jconfirm-buttons button {
+  font-size: 16px;
+  border-radius: 2px;
+  background: #290942;
+  text-shadow: none;
+  border: none;
+  color: white;
+  padding: 10px;
+  min-width: 100px;
+}
+
+.jconfirm.jconfirm-my-theme.jconfirm-rtl .jconfirm-box div.jconfirm-title-c .jconfirm-icon-c {
+  margin-left: 8px;
+  margin-right: 0px;
+}

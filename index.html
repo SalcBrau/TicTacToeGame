@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic-Tac-Toe Game</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.2.0/jquery-confirm.min.css">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    </head>
+    <body>
+        <h1>Tic-Tac-Toe</h1>
+        <div id="board">
+            <div id="score">
+                <div id="p1">Player 1:
+                    <div class="p1-sc" id="first">0</div>
+                </div>
+                <div id="p2">Player 2:
+                    <div class="p2-sc" id="second">0</div>
+                </div>
+                <div id="reset">
+                    reset
+                </div>
+            </div>
+            <div id="game">
+                <div id="welcome">
+                    Welcome!
+                        <span>Please select mode:</span>
+                        <div id="one">One Player</div>
+                        <div id="two">Two Player</div>
+                    </div>
+                    <div id="selection">
+                    <div id="message"></div>
+                    <div id="zero">O</div>
+                    <div id="x">X</div>
+                    <div id="back">Back</div>
+                </div>
+                <div id="playarea">
+                    <div class="sect" id="top">
+                        <canvas id="1"></canvas>
+                        <canvas id="2"></canvas>
+                        <canvas id="3"></canvas>
+                    </div>
+                    <div class="sect" id="middle">
+                        <canvas id="4"></canvas>
+                        <canvas id="5"></canvas>
+                        <canvas id="6"></canvas>
+                    </div>
+                    <div class="sect" id="bottom">
+                        <canvas id="7"></canvas>
+                        <canvas id="8"></canvas>
+                        <canvas id="9"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer> By: Braulio Salcedo </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.2.0/jquery-confirm.min.js"></script>       
+        <script src="js/script.js"></script>
+    </body>
+</html>
